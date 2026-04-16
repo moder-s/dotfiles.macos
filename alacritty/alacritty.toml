@@ -2,7 +2,7 @@
 # @StefanModer
 
 #### Themes
-import = [
+general.import = [
   "~/.config/alacritty/themes/sonokai.toml"
 ]
 
