@@ -22,6 +22,8 @@ brew "lazygit"
 brew "lua"
 ### Lua packeage manager { nvim }
 brew "luarocks"
+### Mise
+brew "mise"
 ### Neovim { nvim }
 brew "neovim"
 ### Node environment
@@ -38,6 +40,8 @@ brew "ruby"
 brew "stylua"
 ### Linter for swift
 brew "swiftlint"
+### Treesitter CLI for treesitter§ { nvim }
+brew "tree-sitter-cli"
 ###  wget
 brew "wget"
 ### zoxide
