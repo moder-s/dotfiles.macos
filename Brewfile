@@ -6,6 +6,8 @@ tap "leoafarias/fvm"
 brew "bat"
 ### Override system cocoapods
 brew "cocoapods", link: :overwrite
+### Replacement for ls
+brew "eza"
 ### Fuzzy finding files { nvim }
 brew "fd"
 ### Flutter Development

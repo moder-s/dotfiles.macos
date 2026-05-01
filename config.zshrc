@@ -14,6 +14,8 @@ source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(zoxide init zsh)"
 ## >fzf
 eval "$(fzf --zsh)"
+## Mise
+eval "$(mise activate zsh)"
 
 # Man pages
 export MANPAGER='nvim +Man!'
@@ -21,6 +23,9 @@ export MANPAGER='nvim +Man!'
 # alias
 alias ZZ=exit
 alias ZQ=exit
+alias tree='eza -T --level=2 --long'
+alias trees='eza -T --level=2'
+alias Tree='eza -a -T --level=2 --long'
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall
