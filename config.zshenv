@@ -11,9 +11,11 @@ export JAVA_HOME="/opt/homebrew/opt/openjdk@17"
 export FVM_CACHE_PATH="$HOME/.fvm"
 # VS Code
 export CODE_HOME="/Applications/Visual Studio Code.app/Contents/Resources/app"
+# Andriod
+export ANDROID_HOME="/Users/stefanmoder/Library/Android/sdk"
 
 ## Setup path for headless
-export PATH="$BREW_HOME/bin:$CODE_HOME/bin:$FVM_CACHE_PATH/bin:$JAVA_HOME/bin:$PATH"
+export PATH="$BREW_HOME/bin:$CODE_HOME/bin:$ANDROID_HOME/platform-tools:$FVM_CACHE_PATH/bin:$JAVA_HOME/bin:$PATH"
 
 ## FLAGS
 export LDFLAGS="-L/opt/homebrew/opt/node@20/lib"
